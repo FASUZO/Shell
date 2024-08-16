@@ -1,0 +1,3 @@
+set HARDWARE_ID="@HID\VID_048D&PID_C100&COL02\7&3A985C43&0&0001"
+devcon /restart %HARDWARE_ID%
+timeout /t 8
